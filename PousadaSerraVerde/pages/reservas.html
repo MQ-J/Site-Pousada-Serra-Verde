@@ -31,37 +31,38 @@
 
       <p><b>Faça sua reserva agora na Pousada Serra Verde:</b></p>
 
-      <form oninput="saida.value=idade.value">
+      <form oninput="saida.value=idade.value">     <!--oninput é pra marca da idade no range aparecer na frente-->
         <fieldset>
           <legend>Solicitação de Reserva</legend>
           <div>
             <label for="nome">Nome</label>
             <input type="text" id="nome" name="nome">
           </div>
-          <div>
+          <p><div>
             <label for="idade">Idade</label>
             <input type="range" id="idade" name="idade" min="18" value="18">
             <output id="saida" for="idade"></output>
             <label for="idade">ano(s)</label>
-          </div>
+          </div></p>
           <div>
             <label for="celular">Celular</label>
             <input type="tel" id="celular" name="celular" placeholder="99 99999-9999">
           </div>
-          <div>
+          <p><div>
             <label for="email">E-mail</label>
             <input type="email" id="email" name="email">
-          </div>
-          <div>
+          </div></p>
+          <p><div>
             <label for="cidade">Cidade</label>
             <input type="text" id="cidade" name="cidade">
             <label for="uf">UF</label>
-            <select id="uf" name="capital">
-              <option value="SP">SP</option>
-              <option value="RJ">RJ</option>
-              <option value="MG">MG</option>
-            </select>
-          </div>
+            <input list="capitais" id="uf" name="capital">
+            <datalist id="capitais">
+              <option value="SP">
+              <option value="RJ">
+              <option value="MG">
+            </datalist>
+          </div></p>
           <div>
             <fieldset>
               <legend>Chalé</legend>
@@ -75,23 +76,44 @@
               <label for="família">  Família</label>
             </fieldset>
           </div>
-          <div>
+          <p><div>
             <label for="chegada">Chegada</label>
             <input type="date" id="chegada" name="chegada">
-          </div>
+          </div></p>
           <div>
             <label for="partida">Partida</label>
             <input type="date" id="partida" name="partida">
           </div>
-          <div>
+          <p><div>
             <label for="adultos">Adultos</label>
             <input type="number" id="adultos" name="adultos">
-          </div>
+          </div></p>
           <div>
             <label for="crianças">Crianças</label>
             <input type="number" id="crianças" name="crianças">
             <label for="bebês">Até 5 anos</label>
             <input type="number" id="bebês" name="bebês">
+          </div>
+          <p><div>
+            <input type="checkbox" id="carro" name="carro" value="quero reservar vaga no estacionamento">
+            <label for="carro">Quero reservar uma vaga no estacionamento</label>
+          </div></p>
+          <p><div>
+            <label for="pagamento">Forma de Pagamento</label>
+            <select id="pagamento" name="pagamento">
+              <option value="TED/DOC">Transferência (TED/DOC)</option>
+              <option value="pix">Pix</option>
+              <option value="depósito">Depósito</option>
+            </select>
+          </div></p>
+          <div>
+            <label for="pedido">Se desejar, faça um pedido especial, faremos o possível para atendê-lo:</label>
+          </div>
+          <div>
+            <textarea id="pedido" name="pedido" rows="4" cols="59" maxlength="200"></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Solicitar Reserva" onclick="alert('Obrigado! Em breve, entraremos em contato para confirmação de sua reserva.')">
           </div>
         </fieldset>
       </form>
