@@ -1,31 +1,50 @@
+/* CABEÇALHO */
 #cabeçalho {
   text-align: center;
   height: 200px;
   width: 100%;
   background: url("midias/paisagem.png") center no-repeat;
 }
+  /*TÍTULO PRINCIPAL*/
+  header h1 {
+    font-family: Courier New;
+    color: DarkOliveGreen;
+  }
+  /*LINKS PARA AS OUTRAS PÁGINAS*/
+  header a {
+    text-decoration: none;
+    color: gray;
+    font-family: cursive;
+    padding: 5px 30px 5px 30px;
+    border: 2px groove gray;
+    border-radius: 10px;
+    background: white;
+  }
 
-h1 {
-  font-family: Courier New;
-  color: DarkOliveGreen;
-}
-
-a {
-  text-decoration: none;
-  color: gray;
-  font-family: cursive;
-  padding: 5px 30px 5px 30px;
-  border: 2px groove gray;
-  border-radius: 10px;
-  background: white;
-}
-
+/* CONTEÚDO QUE FICA NA PARTE DO DEGRADÊ */
 section {
   padding: 1px 200px 1px 200px;
   background: linear-gradient(DarkSlateGray, DarkSeaGreen);
 }
+  /*TÍTULO MENOR*/
+  section h2 {
+    text-align: center;
+  }
+  /*TABELA*/
+  table {
+    font-size: 20px;
+  }
+    table th{
+      background-color: green;
+    }
+  /*SUBTÍTULO*/
+  .subtitulo {
+    text-align: center;
+  }
 
+/* DESCE OS CRÉDITOS */
 footer{
   padding: 1px 200px 1px 200px;
+  text-align: center;
   background:center DarkSlateGray;
 }
