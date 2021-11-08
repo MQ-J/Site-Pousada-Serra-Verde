@@ -1,0 +1,20 @@
+* {
+  background: url("midias/folhas.png");
+}
+
+#cabeçalho {
+  text-align: center;
+  height: 200px;
+  width: 100%;
+  background: url("midias/paisagem.png") center no-repeat;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+  font-family: cursive;
+  padding: 10px 10px 10px 10px;
+  border: 2px groove gray;
+  border-radius: 10px;
+  background: white;
+}
