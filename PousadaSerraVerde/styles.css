@@ -1,13 +1,14 @@
 /* ATRAS DE TUDO */
 body {
-  background: url("midias/folhas.png");
+  background: url("midias/folhas.png") fixed;
 }
 
 /* CABEÇALHO */
 #cabeçalho {
-  text-align: center;
+  margin: 0px 0px 0px 200px;
   height: 200px;
-  width: 100%;
+  width: 950px;
+  text-align: center;
   background: url("midias/paisagem.png") center no-repeat;
 }
   /*TÍTULO PRINCIPAL*/
@@ -29,12 +30,20 @@ body {
 
 /* CONTEÚDO QUE FICA NA PARTE DO DEGRADÊ */
 section {
-  padding: 1px 200px 1px 200px;
+  margin: 0px 0px 0px 200px;
+  padding: 1px 1px 1px 1px;
+  width: 950px;
   background: linear-gradient(DarkSlateGray, DarkSeaGreen);
 }
   /*TÍTULO MENOR*/
   section h2 {
     text-align: center;
+  }
+  /*imagens do home*/
+  .imagemhome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
   /*TABELA*/
   table {
@@ -50,7 +59,9 @@ section {
 
 /* DESCE OS CRÉDITOS */
 footer{
-  padding: 1px 200px 1px 200px;
+  margin: 0px 0px 0px 200px;
+  padding: 1px 1px 1px 1px;
+  width: 950px;
   text-align: center;
   background:center DarkSlateGray;
 }
