@@ -12,7 +12,7 @@ body {
   background: url("midias/paisagem.png") center no-repeat;
 }
   /*TÍTULO PRINCIPAL*/
-  header h1 {
+  header > h1 {
     font-family: Courier New;
     color: DarkOliveGreen;
   }
@@ -30,14 +30,19 @@ body {
 
 /* CONTEÚDO QUE FICA NA PARTE DO DEGRADÊ */
 section {
+  text-align: justify;
+  font-size: 20px;
   margin: 0px 0px 0px 200px;
   padding: 1px 1px 1px 1px;
   width: 950px;
   background: linear-gradient(DarkSlateGray, DarkSeaGreen);
 }
-  /*TÍTULO MENOR*/
+  /*TÍTULOS MENORES*/
   section h2 {
     text-align: center;
+  }
+  ul + p {
+    font-size: 25px;
   }
   /*imagens do home*/
   .imagemhome {
@@ -46,9 +51,6 @@ section {
     justify-content: space-around;
   }
   /*TABELA*/
-  table {
-    font-size: 20px;
-  }
     table th{
       background-color: green;
     }
