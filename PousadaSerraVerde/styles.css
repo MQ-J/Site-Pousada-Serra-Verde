@@ -19,6 +19,17 @@ body {
   header > h1::selection {
     text-shadow: 1px 2px;
   }
+  /*titulo principal da página dos mapas*/
+  .titulomapa {
+    margin: 100px 0px 0px 490px;
+    width: 400px;
+    background-color: DarkSlateGray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 35px;
+    color: lightgreen;
+  }
   /*LINKS PARA AS OUTRAS PÁGINAS*/
   header a {
     text-decoration: none;
@@ -62,6 +73,11 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+  }
+  .imagemmapa {
+    margin: 0px 0px 0px 550px;
+    padding: 0px;
+    height: 179px;
   }
   /*TABELA*/
     table th{
