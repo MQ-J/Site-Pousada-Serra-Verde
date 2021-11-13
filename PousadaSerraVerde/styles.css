@@ -16,6 +16,9 @@ body {
     font-family: Courier New;
     color: DarkOliveGreen;
   }
+  header > h1::selection {
+    text-shadow: 1px 2px;
+  }
   /*LINKS PARA AS OUTRAS PÁGINAS*/
   header a {
     text-decoration: none;
@@ -26,6 +29,12 @@ body {
     border: 2px groove gray;
     border-radius: 10px;
     background: white;
+  }
+  .links a:hover {
+    background: lightgreen;
+  }
+  .links a:active {
+    background: mediumseagreen;
   }
 
 /* CONTEÚDO QUE FICA NA PARTE DO DEGRADÊ */
@@ -41,8 +50,12 @@ section {
   section h2 {
     text-align: center;
   }
+  /*lista*/
   ul + p {
     font-size: 25px;
+  }
+  ul li::marker {
+    content:"🌳";
   }
   /*imagens do home*/
   .imagemhome {
