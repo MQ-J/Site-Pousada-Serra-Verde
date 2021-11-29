@@ -84,7 +84,9 @@
           </div></p>
           <div>
             <label for="partida">Partida</label>
-            <input type="date" id="partida" name="partida">
+            <input type="date" id="partida" name="partida" onfocus="arrumaCor()">
+            <button name="diária" type="button" onclick="verifyDiárias()">Calcular Diárias</button>
+            <label for="diária" id="diária"></label>
           </div>
           <p><div>
             <label for="adultos">Adultos</label>
@@ -92,9 +94,9 @@
           </div></p>
           <div>
             <label for="crianças">Crianças</label>
-            <input type="number" id="crianças" name="crianças">
+            <input type="number" id="crianças" name="crianças" onchange="verify5anos()">
             <label for="bebês">Até 5 anos</label>
-            <input type="number" id="bebês" name="bebês">
+            <input type="number" id="bebês" name="bebês" onchange="verify5anos()">
           </div>
           <p><div>
             <input type="checkbox" id="carro" name="carro" value="quero reservar vaga no estacionamento">
