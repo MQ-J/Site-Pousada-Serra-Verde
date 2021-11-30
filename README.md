@@ -1,5 +1,5 @@
 # Site-Pousada-Serra-Verde
-<h3 aligh="left">Projeto semestral da matéria de Desenvolvimento Web 1, do curso de TADS do IFSP</h3>
+<h3 display="flex "aligh="center">Projeto semestral da matéria de Desenvolvimento Web 1, do curso de TADS do IFSP</h3>
 
 <div display="flex" align="center">
 <img aligh="left" height="125" src="https://raw.githubusercontent.com/MQ-J/Site-Pousada-Serra-Verde/main/midias/images/foto1.jpg"/>
