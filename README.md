@@ -5,7 +5,7 @@
 
 <h4 aligh="left">Gostei bastante deste projeto, pois descobri muitas coisas úteis:</h4>
 <ul type="circle">
-  <li color="green">Sites são uma coletânea de arquivos, um com especificações sobre o outro</li>
+  <li background-color="green">Sites são uma coletânea de arquivos, um com especificações um sobre o outro</li>
   <li>CSS é estranho</li>
   <li>JavaScript parace java com python</li>
 </ul>
