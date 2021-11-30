@@ -1,4 +1,3 @@
-# Site-Pousada-Serra-Verde
 <h2 align="justify">Projeto semestral da matéria de Desenvolvimento Web 1, do curso de TADS do IFSP</h2>
 
 <div display="flex" align="center">
