@@ -1,6 +1,6 @@
 <h2 align="justify">Projeto semestral da matéria de Desenvolvimento Web 1, do curso de TADS do IFSP</h2>
 
-<div display="flex" align="center">
+<div display="flex" align="center" align-items="row">
 <img aligh="left" height="125" src="https://raw.githubusercontent.com/MQ-J/Site-Pousada-Serra-Verde/main/midias/images/foto1.jpg"/>
 <img aligh="left" height="125" src="https://raw.githubusercontent.com/MQ-J/Site-Pousada-Serra-Verde/main/midias/images/foto2.jpg"/>
 <img aligh="left" height="125" src="https://raw.githubusercontent.com/MQ-J/Site-Pousada-Serra-Verde/main/midias/images/foto3.jpg"/>
